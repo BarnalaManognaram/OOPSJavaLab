@@ -72,7 +72,8 @@ public class PoweredAirIVR {
             System.out.println("q. Exit"); 
  
             System.out.print("Enter your choice: "); 
-            String moreChoice = scanner.nextLine().trim().toLowerCase(); 
+	     String moreChoice = (String)scanner.next().toLowerCase();
+            //String moreChoice = scanner.nextLine().trim().toLowerCase(); 
  
             switch (moreChoice) { 
                 case "6": 
